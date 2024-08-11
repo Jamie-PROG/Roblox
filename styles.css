@@ -16,7 +16,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('your-background.gif') no-repeat center center fixed;
+    background: url('chipi.gif') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     color: white;
@@ -24,9 +24,6 @@ body, html {
 
 .profile-section {
     margin-bottom: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
-    padding: 20px;
-    border-radius: 15px;
 }
 
 .profile-pic {
@@ -50,9 +47,6 @@ body, html {
 .links-section {
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
-    padding: 20px;
-    border-radius: 15px;
 }
 
 .link {
@@ -61,13 +55,13 @@ body, html {
     text-decoration: none;
     margin: 10px 0;
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     transition: background-color 0.3s ease;
 }
 
 .link:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive Styling */
