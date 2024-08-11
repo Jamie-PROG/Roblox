@@ -24,11 +24,7 @@ body, html {
     color: white;
 }
 
-.red {
-    font-size: 1.5rem;
-    margin-top: 5px;
-    color: red; /* This will make the text red */
-}
+
 
 
 .profile-section {
