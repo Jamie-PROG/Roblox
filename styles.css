@@ -10,22 +10,17 @@ body, html {
     font-family: 'Arial', sans-serif;
 }
 
-// add changes
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('chipi.gif') no-repeat center center fixed;
+    background: url('your-background.gif') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     color: white;
 }
-
-
-
 
 .profile-section {
     margin-bottom: 20px;
