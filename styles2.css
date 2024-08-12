@@ -96,6 +96,22 @@ body, html {
     text-decoration: underline;
 }
 
+/* Music control icon styles */
+.music-control {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.music-control img {
+    width: 32px;
+    height: 32px;
+}
+
 /* Responsive Styling */
 @media (max-width: 600px) {
     .name {
@@ -131,5 +147,10 @@ body, html {
     .discord-icon {
         width: 20px; /* Slightly smaller for mobile */
         height: 20px;
+    }
+
+    .music-control img {
+        width: 28px;
+        height: 28px;
     }
 }
