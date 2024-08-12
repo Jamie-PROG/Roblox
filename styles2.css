@@ -1,0 +1,135 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('jamiebackground.gif') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.role {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+/* Styles for the info box and description */
+.info-box {
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 20px; /* Space between the description and the icons */
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Styles for the icons box */
+.icons-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the icons */
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.mail-link,
+.github-link,
+.discord-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.mail-icon,
+.github-icon,
+.discord-icon {
+    width: 24px; /* Increased icon size */
+    height: 24px;
+    margin-right: 10px; /* Adjusted margin for better spacing */
+}
+
+.mail-link:hover,
+.github-link:hover,
+.discord-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .name {
+        font-size: 2rem;
+    }
+
+    .role {
+        font-size: 1.2rem;
+    }
+
+    .info-box {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .icons-box {
+        flex-direction: column;
+        align-items: center; /* Center the icons vertically */
+    }
+
+    .mail-link,
+    .github-link,
+    .discord-link {
+        font-size: 1rem;
+    }
+
+    .mail-icon,
+    .github-icon,
+    .discord-icon {
+        width: 20px; /* Slightly smaller for mobile */
+        height: 20px;
+    }
+}
